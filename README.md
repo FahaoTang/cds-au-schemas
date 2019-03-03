@@ -3,7 +3,7 @@
 API sets created by the Australian Consumer Data Standards to meet the needs of the Consumer Data Right
 
 ## Live demo
-https://cds-dotnetcore.azurewebsites.net/swagger/ 
+https://cds-dotnetcore.azurewebsites.net/ 
 
 ## Sample screenshot
 ![sample screenshot][sample-screenshot]
