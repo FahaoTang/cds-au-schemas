@@ -67,7 +67,7 @@ namespace ConsumerDataStandards
                     c.SwaggerDoc("1", new Info
                     {
                         Version = "1",
-                        Title = "Consumer Data Standards Server",
+                        Title = "Consumer Data Standards",
                         Description = "ASP.NET Core 2.2 implementation with dummy data",
                         Contact = new Contact()
                         {
