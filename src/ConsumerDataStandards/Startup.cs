@@ -57,7 +57,7 @@ namespace ConsumerDataStandards
                     opts.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
                     opts.SerializerSettings.Converters.Add(new StringEnumConverter
                     {
-                        CamelCaseText = true
+                        NamingStrategy = new CamelCaseNamingStrategy()
                     });
                 });
 
@@ -67,13 +67,13 @@ namespace ConsumerDataStandards
                     c.SwaggerDoc("1", new Info
                     {
                         Version = "1",
-                        Title = "Consumer Data Standards",
-                        Description = "Consumer Data Standards (ASP.NET Core 2.2)",
+                        Title = "Consumer Data Standards Server",
+                        Description = "ASP.NET Core 2.2 implementation with dummy data",
                         Contact = new Contact()
                         {
-                            Name = "Swagger Codegen Contributors",
-                            Url = "https://github.com/swagger-api/swagger-codegen",
-                            Email = ""
+                            Name = "Raymond Tang",
+                            Url = "http://kontext.tech",
+                            Email = "enquiry@kontext.tech"
                         },
                         TermsOfService = ""
                     });
@@ -105,7 +105,7 @@ namespace ConsumerDataStandards
                 .UseSwaggerUI(c =>
                 {
                     //TODO: Either use the SwaggerGen generated Swagger contract (generated from C# classes)
-                    c.SwaggerEndpoint("/swagger/1/swagger.json", "Consumer Data Standards");
+                    c.SwaggerEndpoint("/swagger/1/swagger.json", "Consumer Data Standards (ASP.NET Core 2.2)");
 
                     //TODO: Or alternatively use the original Swagger contract that's included in the static files
                     // c.SwaggerEndpoint("/swagger-original.json", "Consumer Data Standards Original");
