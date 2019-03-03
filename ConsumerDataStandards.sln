@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26114.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumerDataStandards", "src\ConsumerDataStandards\ConsumerDataStandards.csproj", "{4759C7D4-715F-4051-AC1C-2F63A12C1396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4759C7D4-715F-4051-AC1C-2F63A12C1396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4759C7D4-715F-4051-AC1C-2F63A12C1396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4759C7D4-715F-4051-AC1C-2F63A12C1396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4759C7D4-715F-4051-AC1C-2F63A12C1396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5FF6819-E4D8-41A4-B9D4-FD09266079FA}
+	EndGlobalSection
+EndGlobal
