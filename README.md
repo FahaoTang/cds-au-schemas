@@ -2,6 +2,15 @@
 
 API sets created by the Australian Consumer Data Standards to meet the needs of the Consumer Data Right
 
+## Live demo
+https://cds-dotnetcore.azurewebsites.net/swagger/ 
+
+## Sample screenshot
+![sample screenshot][sample-screenshot]
+
+
+# How to run the application
+
 ## Run
 
 ### Linux/OS X:
@@ -28,9 +37,6 @@ cd src/ConsumerDataStandards
 docker build -t consumerdatastandards .
 docker run -p 5000:5000 consumerdatastandards
 ```
-
-## Sample screenshot
-![sample screenshot][sample-screenshot]
 
 # To be done
 Please join me if you want to contribute in the following areas.
